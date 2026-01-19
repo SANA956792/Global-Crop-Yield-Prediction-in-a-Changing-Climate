@@ -1,5 +1,8 @@
 # 🌾 Climate Change Impact on Crop Yields
 
+dataset link
+https://www.kaggle.com/datasets/waqi786/climate-change-impact-on-agriculture/code
+
 **Current status: single Jupyter notebook (early stage)**
 
 This repository contains my work on analyzing and predicting how climate change affects crop yields using machine learning.
