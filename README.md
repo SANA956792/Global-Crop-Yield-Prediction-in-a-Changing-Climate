@@ -109,6 +109,10 @@ A simple Gradio interface is included at the end of the notebook, allowing users
 
 1. Download or clone this repo
 2. Open the notebook
+3. ## Project Screenshot
+
+![Model Screenshot](https://raw.githubusercontent.com/SANA956792/Global-Crop-Yield-Prediction-in-a-Changing-Climate/main/path/to/image.png)
+
 
 ```bash
 jupyter notebook climate.ipynb
