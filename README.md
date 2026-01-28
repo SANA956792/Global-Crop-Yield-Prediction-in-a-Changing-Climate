@@ -1,27 +1,109 @@
 # 🌾 Climate Change Impact on Crop Yields
 
-dataset link
-https://www.kaggle.com/datasets/waqi786/climate-change-impact-on-agriculture/code
+This project analyzes and predicts the impact of climate change on crop yields using machine learning techniques.  
+It explores how environmental and agricultural factors such as temperature, rainfall, CO₂ levels, soil health, fertilizers, and adaptation strategies influence agricultural productivity.
 
-**Current status: single Jupyter notebook (early stage)**
+> **Project status:** Early stage — currently implemented as a single Jupyter Notebook with model training and a basic Gradio demo.
 
-This repository contains my work on analyzing and predicting how climate change affects crop yields using machine learning.
+---
 
-### What's inside right now
+## 📊 Dataset
 
-| File            | Description                                          |
-|-----------------|------------------------------------------------------|
-| climate.ipynb   | Main notebook — data exploration, preprocessing, model comparison, Gradient Boosting training + basic Gradio demo |
+- **Source:** Kaggle  
+- **Link:** https://www.kaggle.com/datasets/waqi786/climate-change-impact-on-agriculture/code  
+- **Size:** ~10,000 records  
+- **Type:** Structured tabular data (climate + agriculture features)
 
-That's it for now 😄
+---
 
-### What the notebook does (roughly)
+## 📁 Project Structure
 
-- Loads agriculture + climate dataset (~10,000 rows)
-- Explores temperature, rain, CO₂, extreme weather, irrigation, fertilizers, soil health, adaptation strategies...
-- Compares several regression models
-- Keeps the best one → Gradient Boosting Regressor
-- Shows a simple Gradio interface at the end to test predictions
+| File | Description |
+|------|------------|
+| `climate.ipynb` | Main notebook containing data exploration, preprocessing, model comparison, training, evaluation, and a basic Gradio interface |
+| `README.md` | Project documentation |
+
+---
+
+## 🔍 What This Project Does
+
+The notebook performs the following steps:
+
+- Loads and cleans agriculture and climate-related data
+- Exploratory Data Analysis (EDA) on:
+  - Temperature
+  - Rainfall
+  - CO₂ emissions
+  - Extreme weather events
+  - Irrigation, fertilizers, soil health
+  - Climate adaptation strategies
+- Feature preprocessing and scaling
+- Trains and compares multiple regression models
+- Selects the **best-performing model**
+- Deploys a **basic Gradio UI** for interactive crop yield prediction
+
+---
+
+## 🤖 Models Used
+
+Several regression algorithms were trained and evaluated, including:
+
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- **Gradient Boosting Regressor (Final Model)**
+
+The **Gradient Boosting Regressor** was selected based on superior performance across evaluation metrics.
+
+---
+
+## 📈 Model Performance
+
+The final model was evaluated using regression metrics such as:
+
+- **R² Score**
+- **Mean Absolute Error (MAE)**
+- **Mean Squared Error (MSE)**
+- R² Score: 0.62 
+MAE: 0.42  
+MSE: 0.61  
+
+
+✅ **Gradient Boosting Regressor achieved the best overall performance**, showing strong predictive capability for crop yield under varying climate conditions.
+
+---
+
+## 🧪 Technologies Used
+
+- **Python**
+- **Pandas, NumPy** – data manipulation
+- **Matplotlib, Seaborn** – data visualization
+- **Scikit-learn** – machine learning models & evaluation
+- **Gradient Boosting Regressor**
+- **Gradio** – interactive model deployment
+- **Jupyter Notebook**
+
+---
+
+## 🚀 Demo (Gradio)
+
+A simple Gradio interface is included at the end of the notebook, allowing users to:
+- Input climate and agricultural parameters
+- Get predicted crop yield values interactively
+
+---
+
+## 🔮 Future Improvements
+
+- Convert notebook into a modular Python pipeline
+- Deploy the Gradio app on Hugging Face Spaces or Streamlit Cloud
+- Perform hyperparameter tuning (GridSearch / Bayesian Optimization)
+- Add feature importance & explainability (SHAP)
+- Include time-series analysis for climate trends
+- Improve UI/UX of the web interface
+
+---
+
 
 ### How to use it (right now)
 
