@@ -111,7 +111,7 @@ A simple Gradio interface is included at the end of the notebook, allowing users
 2. Open the notebook
 3. ## Project Screenshot
 
-![Model Screenshot](https://github.com/SANA956792/Global-Crop-Yield-Prediction-in-a-Changing-Climate/commit/61104d50cdd16d84c33ac7736ff5373d4a338d6e.png)
+![Model Screenshot](https://github.com/SANA956792/Global-Crop-Yield-Prediction-in-a-Changing-Climate/blob/main/Screenshot%202026-01-28%20144915.png)
 
 
 ```bash
